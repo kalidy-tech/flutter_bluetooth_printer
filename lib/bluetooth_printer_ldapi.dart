@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:bluetooth_printer_ldapi/model/printer_info_model.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter/foundation.dart';
 
 import 'bluetooth_printer_ldapi_platform_interface.dart';
 
@@ -52,6 +52,7 @@ class BluetoothPrinter {
     if (Platform.isAndroid) {
       String result =
           await instance.printImageAndroid(image, isOrientation: isOrientation);
+      debugPrint("------------------Result $result");
       return true;
     } else if (Platform.isIOS) {
       // 72mm x 100mm
