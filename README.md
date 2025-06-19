@@ -31,7 +31,10 @@ Add the package to your project's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  kd_thermal_label_printer: ^1.0.0 
+  flutter_bluetooth_printer: 
+    git: 
+      url: https://github.com/kalidy-tech/flutter_bluetooth_printer.git
+      ref: main 
 
 ```
 
