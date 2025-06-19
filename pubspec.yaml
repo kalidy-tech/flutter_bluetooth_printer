@@ -1,7 +1,7 @@
 name: bluetooth_printer_ldapi
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/kalidy-tech/flutter_bluetooth_printer
 
 environment:
   sdk: ^3.5.4
